@@ -1,0 +1,86 @@
+header {color: #3498db; font-size: 20px; background-color: green;}
+a {
+  content: "first
+    second";
+  }
+ a {
+  content: "first
+    second";
+}
+
+a {
+  font-family: "Times
+    New
+    Roman";
+}
+
+a {
+  content: "first\Asecond";
+}
+a {
+  content: "first\\nsecond";
+}
+[title="nothing\
+  is wrong"] {}
+
+
+
+    a {
+  colr: blue;
+}
+a {
+  my-property: 1;
+}
+
+
+
+a {
+  color: green;
+}
+a {
+  fill: black;
+}
+
+
+@keyframes important2 {
+  from { margin: 10px }
+  to { margin: 20px !important }
+}               
+
+
+@keyframes important1 {
+  from {
+    margin-top: 50px;
+  }
+  to {
+    margin-top: 100px !important;
+  }
+}
+
+
+
+a { color: pink !important; }
+@keyframes important1 {
+  from {
+    margin-top: 50px;
+  }
+  to {
+    margin-top: 100px;
+  }
+}
+
+
+a {
+  -webkit-transition-property: opacity;
+  -webkit-transition: opacity 1s linear;
+}
+a {
+  border-top-width: 1px;
+  top: 0;
+  bottom: 3px;
+  border: 2px solid blue;
+}
+
+
+a { transition-property: opacity; } a { transition: opacity 1s linear; }
+a { transition-property: opacity; -webkit-transition: opacity 1s linear; }
